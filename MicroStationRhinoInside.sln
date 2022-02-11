@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroStationRhinoInside", "MicroStationRhinoInside\MicroStationRhinoInside.csproj", "{FBC86B61-4C90-43E6-A5BF-C7C940DD3A17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBC86B61-4C90-43E6-A5BF-C7C940DD3A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC86B61-4C90-43E6-A5BF-C7C940DD3A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC86B61-4C90-43E6-A5BF-C7C940DD3A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC86B61-4C90-43E6-A5BF-C7C940DD3A17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {663EB7D4-C0B9-40DB-93A5-725DBB369EBD}
+	EndGlobalSection
+EndGlobal

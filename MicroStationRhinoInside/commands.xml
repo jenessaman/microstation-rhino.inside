@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<KeyinTree xmlns="http://www.bentley.com/schemas/1.0/MicroStation/AddIn/KeyinTree.xsd">
+  <RootKeyinTable ID="root">
+    <Keyword SubtableRef="Commands" CommandClass="MacroCommand" CommandWord="RhinoInside">
+      <Options Required="true" TryParse="true"/>
+    </Keyword>
+  </RootKeyinTable>
+
+  <SubKeyinTables>
+    <KeyinTable ID="Commands">
+      <Keyword CommandWord="Hello" />
+      <Keyword CommandWord="Start" />
+      <Keyword CommandWord="RunGH" />
+      <Keyword CommandWord="WinFormsApp" />
+    </KeyinTable>
+  </SubKeyinTables>
+
+  <KeyinHandlers>
+    <KeyinHandler Keyin="RhinoInside Hello" Function="MicroStationRhinoInside.Keyins.Hello" />
+    <KeyinHandler Keyin="RhinoInside Start" Function="MicroStationRhinoInside.Keyins.Start" />
+    <KeyinHandler Keyin="RhinoInside RunGH" Function="MicroStationRhinoInside.Keyins.RunGH" />
+    <KeyinHandler Keyin="RhinoInside WinFormsApp" Function="MicroStationRhinoInside.Keyins.WinFormsApp" />
+  </KeyinHandlers>
+</KeyinTree>
