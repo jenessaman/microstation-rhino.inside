@@ -8,4 +8,4 @@ After setting up dependencies and first build, make sure to:
 You can now start a Visual Studio's debug session for the Bentley application. This will launch the corresponding application for you, and the toolbar to launch sample Rhino.Inside projects should be loaded!
 
 ## Rhino.Inside window loaded in MicroStation
-![alt text](https://github.com/jenessaman/microstation-rhino.inside/blob/main/MicroStationRhinoInside/RhinoInsideWindowInMicroStation.PNG?raw=true)
+![RhinoInsideWindowInMicroStation](https://user-images.githubusercontent.com/69314485/153686973-71b3cca0-76b8-4968-a1cc-a4677c0a85a8.PNG)
